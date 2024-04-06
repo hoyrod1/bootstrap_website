@@ -5,12 +5,13 @@
 .user-container {
   max-height: 90vh;
 }
-
+/*--------- Header Section ---------*/
 header {
   background-color: rgb(239, 244, 247);
   padding: 15px;
-  border-radius: 15px;
   display: flex;
+  border-radius: 10px;
+  margin: 0 0 15px 0;
 }
 
 .header-img {
@@ -22,9 +23,9 @@ header {
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.813);
 }
 
-.header-text-box h2,
+.headshot-info h2,
 p {
-  margin: 10px 0;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -51,3 +52,60 @@ p {
   background-color: white;
   border: 2px solid #606c38;
 }
+
+.header-contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-contact-info h1,
+p {
+  margin: 30px 0;
+}
+
+.header-contact-info p {
+  font-size: large;
+}
+
+.header-contact-info span {
+  font-weight: bolder;
+  margin: 0 10px 0 0;
+}
+/* ------------------------------------*/
+hr {
+  margin: 10px 0 0 0;
+}
+/* ------------- Section ------------- */
+
+section {
+  background-color: rgb(161, 181, 193);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+section h1 {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.job-qualification {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-qualification h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.job-qualification span {
+  font-weight: bolder;
+  margin: 0 10px 0 0;
+}
+
+.job-qualification p {
+  text-align: left;
+}
+/* ------------------------------------*/
