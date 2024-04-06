@@ -13,13 +13,12 @@ body {
   margin: 500px auto;
   padding: 75px 0;
   border-radius: 14px;
-  background-color: rgb(196, 195, 195);
+  background-color: darkgoldenrod;
   box-shadow: 2px 2px 25px 1px rgb(74, 73, 73);
 }
 
 h2 {
-  background-color: rgb(196, 195, 195);
-  text-decoration: underline;
+  background-color: darkgoldenrod;
   color: white;
   text-align: center;
 }
@@ -30,6 +29,7 @@ h2 {
   left: 44%;
   top: 375px;
 }
+
 .index-image img {
   border-radius: 50%;
   box-shadow: 3px 3px 40px 1px rgb(10, 7, 7);
