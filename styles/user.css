@@ -34,9 +34,18 @@ p {
   color: #c46b06;
 }
 
-.headshot-info span {
+.admin-button span {
   color: #405109;
-  font-size: medium;
+  transition: 2s;
+}
+
+.admin-button {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.admin-button span:hover {
+  color: #e70c0c;
 }
 
 .buttons {
